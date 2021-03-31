@@ -180,6 +180,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitGama: Blocky
   uLevel: 4
-  damage: 11
+  damage: 10
   currentHealtH: 45
   MaxHP: 45

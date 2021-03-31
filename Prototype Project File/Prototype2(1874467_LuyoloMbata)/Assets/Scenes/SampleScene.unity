@@ -493,6 +493,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 249923919}
   m_CullTransparentMesh: 0
+--- !u!1 &270365937 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7503676356857026463, guid: d64719c6e036be74eae6c812ba308f89, type: 3}
+  m_PrefabInstance: {fileID: 7503676357124596590}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &270365941
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270365937}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b4e5a7c8a7092a34d978cbd9ec5b8888, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &309840657 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7974025330149803992, guid: a4a80bf353526e74ba50ce81d908d7db, type: 3}
@@ -660,7 +684,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.075471684, g: 0.11949683, b: 0.18867922, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2120,6 +2144,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7503676356857026461, guid: d64719c6e036be74eae6c812ba308f89, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.4499998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503676356857026461, guid: d64719c6e036be74eae6c812ba308f89, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.656034
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503676356857026461, guid: d64719c6e036be74eae6c812ba308f89, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7503676356857026463, guid: d64719c6e036be74eae6c812ba308f89, type: 3}
       propertyPath: m_Name
       value: Player1
@@ -2139,7 +2175,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2379087500325532317, guid: a4a80bf353526e74ba50ce81d908d7db, type: 3}
       propertyPath: damage
-      value: 14
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2379087500325532317, guid: a4a80bf353526e74ba50ce81d908d7db, type: 3}
       propertyPath: MaxHP

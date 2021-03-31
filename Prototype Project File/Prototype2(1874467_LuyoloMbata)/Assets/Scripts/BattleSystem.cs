@@ -21,17 +21,27 @@ public class BattleSystem : MonoBehaviour
     public bHUD playerHUD;
     public bHUD enemyHUD;
 
+    Animator myAnimator;
 
+    
 
 
     public bState state;
+
+    
 
     void Start()
     {
         state = bState.Start;
 
         StartCoroutine(bSetup());
+
+        
     }
+
+  
+
+
 
     IEnumerator bSetup() //Spawn battle units
     {
@@ -89,7 +99,11 @@ public class BattleSystem : MonoBehaviour
 
         playerHUD.setHP(playerUni.currentHealtH);
 
+      
+
         yield return new WaitForSeconds(1f);
+
+
 
         if (isdeath)
         {
@@ -147,6 +161,8 @@ public class BattleSystem : MonoBehaviour
 
     public void onAttackButton()
     {
+       
+
         if (state != bState.Playerturn)
             return;
         StartCoroutine(playerAttec());
